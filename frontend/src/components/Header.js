@@ -10,23 +10,23 @@ const Header = () => {
     <header className='fixed shadow-md h-40 px-5 pt-3 md:px-5 z-50'>
       <div className='d-flex justify-content-between align-items-center h-full'>
         <div className=''>
-          <h5 className='text-dark m-0'>
+          <h5 className='text-dark m-0 fw-bold'>
             <BsStars /> Vanya Maheshwari
           </h5>
         </div>
 
         <div className=''>
           <nav className='navbar navbar-light gap-4 text-dark'>
-            <Link to={"/"} className='text-dark'>
+            <Link to={"/"} className='text-decoration-none text-dark fw-bold'>
               About <MdArrowOutward />
             </Link>
-            <Link to={"/"} className='text-dark'>
+            <Link to={"/"} className='text-decoration-none text-dark fw-bold'>
               Education <MdArrowOutward />
             </Link>
-            <Link to={"/"} className='text-dark'>
+            <Link to={"/"} className='text-decoration-none text-dark fw-bold'>
               Work Experience <MdArrowOutward />
             </Link>
-            <Link to={"/"} className='text-dark'>
+            <Link to={"/"} className='text-decoration-none text-dark fw-bold'>
               Contact <MdArrowOutward />
             </Link>
           </nav>

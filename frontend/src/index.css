@@ -1,4 +1,28 @@
 body{
+    background-color: rgba(141, 228, 255, 0.7);
+}
+
+
+#box{
     font-family: "Ubuntu";
     background-color: rgba(141, 228, 255, 0.864);
 }
+
+/* 
+#rainbow{
+    height: 10px;
+    width: ;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    opacity: 0.5;
+} */
+/* .gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 100px;
+    width: 50%;
+    height: 10%;
+    background: linear-gradient(45deg, blue, indigo, violet);
+    opacity: 0.5;
+    transform: rotate(25deg);
+  } */

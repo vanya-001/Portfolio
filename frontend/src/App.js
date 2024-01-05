@@ -13,31 +13,32 @@ import {
 
 function App() {
   return (
-   <>
+   <div className="shadow-lg p-3 m-5" id="box">
    <Header/>
-				<Routes>
-					<Route
-						exact
-						path="/"
-						element={<Home />}
-					/>
-          <Route
-						exact
-						path="/"
-						element={<Education />}
-					/>
-					<Route
-						exact
-						path="/"
-						element={<Work />}
-					/>
-          <Route
-						exact
-						path="/"
-						element={<Contact />}
-					/>
-				</Routes>
-   </>
+			<Routes>
+				<Route
+					exact
+					path="/"
+					element={<Home />}
+				/>
+          		<Route
+					exact
+					path="/"
+					element={<Education />}
+				/>
+				<Route
+					exact
+					path="/"
+					element={<Work />}
+				/>
+          		<Route
+					exact
+					path="/"
+					element={<Contact />}
+				/>
+			</Routes>
+		
+   </div>
   );
 }
 

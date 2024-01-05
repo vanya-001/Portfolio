@@ -8,6 +8,7 @@ import "../index.css";
 
 const Home = () => {
   return (
+    <>
     <div className='w-100 pt-5 h-100 d-flex'>
       <div className='w-50 pt-5 px-5'>
         <div className='fs-6 fw-light'><TfiLocationPin />Aligarh, Uttar Pradesh, India
@@ -43,6 +44,23 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <div className='mx-5 w-50'>
+        <div>
+          A little about me 
+          <p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, cum? Atque, quis doloremque! Ex repudiandae tempora consequuntur natus itaque rem unde, illo nemo veniam vel autem est inventore adipisci iusto.
+            </p> <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit placeat, tempore culpa impedit dicta illo laborum repudiandae dolores facilis quidem temporibus cum, fugit vel magni odio voluptatem est sed aspernatur?
+            </p>
+          </p>
+          
+        </div>
+        <p className='fst-italic text-decoration-line-through'>Vanya</p>
+
+      </div>
+    </>
   )
 }
 

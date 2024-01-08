@@ -23,7 +23,7 @@ function App() {
 				/>
           		<Route
 					exact
-					path="/"
+					path="/education"
 					element={<Education />}
 				/>
 				<Route

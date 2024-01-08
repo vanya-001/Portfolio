@@ -17,7 +17,7 @@ const Home = () => {
           <lord-icon
               src="https://cdn.lordicon.com/iikoxwld.json"
               trigger="in"
-              delay="1"
+              delay="100"
               state="in-roll-calm"
               style={{ width: '50px', height: '50px' }}
             > 

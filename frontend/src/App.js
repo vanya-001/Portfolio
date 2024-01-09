@@ -11,6 +11,7 @@ import {
 
 
 
+
 function App() {
   return (
    <div className="shadow-lg p-3 m-5" id="box">
@@ -28,12 +29,12 @@ function App() {
 				/>
 				<Route
 					exact
-					path="/"
+					path="/work"
 					element={<Work />}
 				/>
           		<Route
 					exact
-					path="/"
+					path="/contact"
 					element={<Contact />}
 				/>
 			</Routes>

@@ -1,6 +1,5 @@
 import React from 'react';
 import "https://cdn.lordicon.com/lordicon.js";
-import { GiBlackBook } from "react-icons/gi";
 
 const Education = () => {
   return (
@@ -62,7 +61,7 @@ const Education = () => {
             src="https://cdn.lordicon.com/vvqcrgre.json"
             trigger="hover"
             colors="primary:#ffffff,secondary:#4bb3fd,tertiary:#3a3347"
-            style={{width:"300px",height:"300px"}}>
+            style={{width:"500px",height:"400px"}}>
           </lord-icon>
       </div>
       

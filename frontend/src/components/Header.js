@@ -29,10 +29,10 @@ const Header = () => {
             <Link to={"/education"} className='text-decoration-none text-dark fw-bold'>
               Education <MdArrowOutward />
             </Link>
-            <Link to={"/"} className='text-decoration-none text-dark fw-bold'>
+            <Link to={"/work"} className='text-decoration-none text-dark fw-bold'>
               Work Experience <MdArrowOutward />
             </Link>
-            <Link to={"/"} className='text-decoration-none text-dark fw-bold'>
+            <Link to={"/contact"} className='text-decoration-none text-dark fw-bold'>
               Contact <MdArrowOutward />
             </Link>
           </nav>
